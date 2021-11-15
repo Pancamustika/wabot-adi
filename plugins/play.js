@@ -49,8 +49,8 @@ handler.tags = ['downloader']
 handler.command = /^(play|play2)$/i
 
 handler.exp = 0
-handler.limit = true
-handler.premium = true
+handler.limit = false
+handler.premium = false
 handler.register = true
 
 module.exports = handler
